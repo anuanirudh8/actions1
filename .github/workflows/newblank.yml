@@ -59,6 +59,6 @@ jobs:
           echo 6.who is unning this script
           whoami
           echo 7.how is the disc laid out?
-          of
+          df
           echo 8.what environment vaiables are available?
-          envc
+          env
