@@ -43,6 +43,6 @@ jobs:
           git --version
           echo what about bulid tools?
           echo anirudh
-          mvn --vesion
+          mvn --version
           gradle --version
           ant -version
