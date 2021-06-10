@@ -29,7 +29,7 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world
       - name: lpg th pebulid disc space
-        run:ds
+        run:df
       - name:checkout the git hub branch
         run:actions/checkout@v2
       - name:setup jdk 1.8
