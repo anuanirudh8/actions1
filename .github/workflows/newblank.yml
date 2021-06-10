@@ -31,14 +31,14 @@ jobs:
         
       - name: lpg th pebulid disc space
         run: df
-      - name:checkout the git hub branch
-        run:actions/checkout@v2
-      - name:setup jdk 1.8
-        run:actions/setup-java@v1
+      - name: checkout the git hub branch
+        run: actions/checkout@v2
+      - name: setup jdk 1.8
+        run: actions/setup-java@v1
         with:
-        java-version: 1.8
-      - name:build your jakrta app with maven
-        run:echo mvn -B package ..file pom.xml
+          java-version: 1.8
+      - name: build your jakrta app with maven
+        run: echo mvn -B package ..file pom.xml
     
 
       # Runs a set of commands using the runners shell
